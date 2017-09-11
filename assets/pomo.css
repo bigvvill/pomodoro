@@ -1,0 +1,216 @@
+html {
+  height: 100%;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+19,6d0019+68 */
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(top, #a90329 19%, #6d0019 68%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a90329 19%,#6d0019 68%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a90329 19%,#6d0019 68%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: courier;
+  color: white;
+  font-family: "Lobster", cursive;
+}
+
+.mainContainer {
+  width: 80%;
+  margin: 10px auto;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: 2%;
+}
+
+.imageDiv {
+  width: 300px;
+  margin: 0 auto;
+  padding: 0 0 10px;
+}
+
+#fccLogo {
+  height: 50px;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.timerContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.lengthContainer {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 0;
+}
+
+.sessionLength {
+  width: 200px;
+}
+
+.breakLength {
+  text-align: center;
+  width: 200px;
+}
+
+#sessionTime {
+  width: 50px;
+  margin: 0 -20px 0 10px;
+}
+
+#breakTime {
+  width: 50px;
+  margin: 0 -20px 0 10px;
+  font-size: 100px;
+}
+
+#timer {
+  text-align: center;
+
+}
+
+#completedCount {
+  text-align: center;
+  font-size: 25px;
+  font-family: "PT Mono", cursive;
+  padding: 10px;
+}
+
+
+#display {
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+button {
+  margin: 0 16px;
+  font-family: courier;
+  padding: 0 10px 0 10px;
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  font-size: 50px;
+  
+}
+
+button:focus {
+  outline: 0;
+}
+
+.minusButton {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.plusButton {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+#sessionMinus {
+  padding: 0 10px 0 10px;
+  margin: 0 0px
+}
+
+#sessionPlus {
+  padding: 0 10px 0 10px;
+  margin: 0 0 0 33px;
+}
+
+#breakMinus {
+  padding: 0 10px 0 10px;
+  margin: 0 0px
+}
+
+#breakPlus {
+  padding: 0 10px 0 10px;
+  margin: 0 0 0 33px;
+}
+
+.stateContainer {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  position: relative;
+  
+}
+
+#begin {
+  padding: 0px 10px 0 10px;
+  margin: 0 20px 0 0;
+  font-family: "Lobster" !important;
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#begin:active {
+  outline: 0;
+}
+
+#pause {
+  padding: 0px 10px 0 10px;
+  margin: 0 20px 0 0 ;
+  font-family: "Lobster" !important;
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#clear {
+  padding: 0px 10px 0 10px;
+  margin: 0 20px 0 0;
+  font-family: "Lobster" !important;
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.progressContainer {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  flex: 1 1 0;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+#progressContainer {
+  width: 100%;
+  background-color: #006401;
+  border: 2px solid #000;
+}
+
+#progressBar {
+  width: 0%;
+  height: 30px;
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 430px) {
+  #display {
+    font-size: 40px !important;
+  }
+}

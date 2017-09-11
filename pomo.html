@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|PT+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" href="assets/pomo.css" rel="stylesheet">
+  </head>
+  <body>
+  
+    <div class="mainContainer">
+      
+      <div class="imageDiv">
+        <img id="fccLogo" src="assets/fcc-logo.png">
+      </div>
+      
+      <div id="display"><h3>Pomodoro Timer</h3></div>
+      
+      <div class="timerContainer">
+        <div class="lengthContainer">
+          <div class="sessionLength">
+            <h4>Session Length</h4>
+          
+        
+        <div class="buttonContainer">
+          <button class="minusButton" id="sessionMinus">-</button>
+          <div id="sessionTime"><h3>25</h3></div>
+          <button class="plusButton" id="sessionPlus">+</button>
+        </div>
+        </div>
+        
+        <div class="breakLength">
+        <h4>Break Length</h4>
+          
+        <div class="buttonContainer">
+          <button class="minusButton" id="breakMinus">-</button>
+          <div id="breakTime"><h3>5</h3></div>
+          <button class="plusButton" id="breakPlus">+</button>
+        </div>
+        </div>
+        </div>
+        
+        <div class="progressContainer">
+          <div id="progressContainer">
+            <div id="progressBar"></div>
+          </div>
+        </div>
+        
+        <div id="timer"><h1>25:00</h1> </div>
+        <div id="completedCount">COMPLETED WORK SESSIONS: 0</div>
+        
+        <div class="stateContainer">
+          <button id="begin">Begin</button>
+          <button id="pause" disabled="true">Pause</button>
+          <button id="clear" style="display: none">Clear</button>
+        </div>
+
+        <div id="sound"></div>
+      
+      </div>
+    
+    </div>
+    
+    <script src="assets/pomo.js"></script>
+  </body>
+</html>
